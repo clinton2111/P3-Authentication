@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/frag_B_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="So how am i supposed to use it?"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imagePic_Tut"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/frag_B_heading"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        android:rotation="-45"
+        android:src="@drawable/pic_tutorial" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagePic_Tut" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/frag_B_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Well its simple to set up.\n1)In the navigation drawer click &apos;Create Passpoints&apos;\n2) Choose an image\n3) Click any point on the image. Remember this point\n4) Confirm your point and repeat the process with 3 other images(4 in total. This number can be changed in the settings menu)\n\nAnd you&apos;re done. Now you can lock your apps from the P3 home screen.\n When you try to open a locked app, you&apos;ll be shown the same pictures you chose during registration and all you gotta go is click the same points. Simple isnt it?"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

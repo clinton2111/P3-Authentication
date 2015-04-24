@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P3</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Create PassPoints</item>
+        <item>Create Pattern</item>
+        <item>Settings</item>
+        <item>Tutorial</item>
+        <item>Share</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/passpoint</item>
+        <item>@drawable/ic_action_view_as_grid</item>
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_help</item>
+        <item>@drawable/ic_action_share</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <string-array name="listentries">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="listvalues">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="patternentries">
+        <item>No Pattern</item>
+        <item>Pattern</item>
+        <item>CAPTCHA Pattern</item>
+    </string-array>
+    <string-array name="patternvalues">
+        <item>No Pattern</item>
+        <item>Pattern</item>
+        <item>CAPTCHA Pattern</item>
+    </string-array>
+    <string-array name="pattern_stealthmode_entries">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="pattern_stealthmode_values">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="descr_image">Image</string>
+
+    <string-array name="pic_name">
+        <item>img01.png</item>
+        <item>img02.png</item>
+        <item>img03.png</item>
+        <item>img04.png</item>
+        <item>img05.png</item>
+        <item>img06.png</item>
+        <item>img07.png</item>
+        <item>img08.png</item>
+        <item>img09.png</item>
+        <item>img10.png</item>
+        <item>img11.png</item>
+        <item>img12.png</item>
+    </string-array>
+
+    <string name="base_URL">http://qode21.com/apps/P3/</string>
+    <string name="EULA">
+<![CDATA[
+<h1>P3 AppLocker 1.6</h1>
+<h1>Copyright (c) 2014 Clinton D\’souza/Qode21</h1>
+
+<p>
+*** END USER LICENSE AGREEMENT ***  
+</p>
+
+<p>
+IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.
+</p>
+
+<h2>1. LICENSE</h2>
+
+<p>
+By receiving, opening the file package, and/or using P3 AppLocker 1.6("Software") containing this software, you agree that this End User User License Agreement(EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.
+</p>
+
+<p>
+Unless you have a different license agreement signed by Clinton D\’souza/Qode21 your use of P3 AppLocker 1.6 indicates your acceptance of this license agreement and warranty.
+</p>
+
+<p>
+Subject to the terms of this Agreement, Clinton D\’souza/Qode21 grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use P3 AppLocker 1.6 in accordance with this Agreement and any other written agreement with Clinton D\’souza/Qode21. Clinton D\’souza/Qode21 does not transfer the title of P3 AppLocker 1.6 to you; the license granted to you is not a sale. This agreement is a binding legal agreement between Clinton D\’souza/Qode21 and the purchasers or users of P3 AppLocker 1.6.
+</p>
+
+<p>
+If you do not agree to be bound by this agreement, remove P3 AppLocker 1.6 from your computer now and, if applicable, promptly return to Clinton D\’souza/Qode21 by mail any copies of P3 AppLocker 1.6 and related documentation and packaging in your possession. 
+</p>
+ 
+<h2>2. DISTRIBUTION</h2>
+
+<p>
+P3 AppLocker 1.6 and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. For information about redistribution of P3 AppLocker 1.6 contact Clinton D\’souza/Qode21.
+</p>
+ 
+<h2>3. USER AGREEMENT</h2>
+
+<h3>3.1 Use</h3>
+
+<p>
+Your license to use P3 AppLocker 1.6 is limited to the number of licenses purchased by you. You shall not allow others to use, copy or evaluate copies of P3 AppLocker 1.6.
+</p>
+
+<h3>3.2 Use Restrictions</h3>
+
+<p>
+You shall use P3 AppLocker 1.6 in compliance with all applicable laws and not for any unlawful purpose. Without limiting the foregoing, use, display or distribution of P3 AppLocker 1.6 together with material that is pornographic, racist, vulgar, obscene, defamatory, libelous, abusive, promoting hatred, discriminating or displaying prejudice based on religion, ethnic heritage, race, sexual orientation or age is strictly prohibited.
+</p>
+
+<p>
+Each licensed copy of P3 AppLocker 1.6 may be used on one single computer location by one user. Use of P3 AppLocker 1.6 means that you have loaded, installed, or run P3 AppLocker 1.6 on a computer or similar device. If you install P3 AppLocker 1.6 onto a multi-user platform, server or network, each and every individual user of P3 AppLocker 1.6 must be licensed separately.
+</p>
+
+<p>
+You may make one copy of P3 AppLocker 1.6 for backup purposes, providing you only have one copy installed on one computer being used by one person. Other users may not use your copy of P3 AppLocker 1.6 . The assignment, sublicense, networking, sale, or distribution of copies of P3 AppLocker 1.6 are strictly forbidden without the prior written consent of Clinton D\’souza/Qode21. It is a violation of this agreement to assign, sell, share, loan, rent, lease, borrow, network or transfer the use of P3 AppLocker 1.6. If any person other than yourself uses P3 AppLocker 1.6 registered in your name, regardless of whether it is at the same time or different times, then this agreement is being violated and you are responsible for that violation!  
+</p>
+
+<h3>3.3 Copyright Restriction</h3>
+
+<p>
+This Software contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile P3 AppLocker 1.6. Nor can you create any derivative works or other works that are based upon or derived from P3 AppLocker 1.6 in whole or in part.
+</p>
+  
+</p>
+Clinton D\’souza/Qode21\’s name, logo and graphics file that represents P3 AppLocker 1.6 shall not be used in any way to promote products developed with P3 AppLocker 1.6 . Clinton D\’souza/Qode21 retains sole and exclusive ownership of all right, title and interest in and to P3 AppLocker 1.6 and all Intellectual Property rights relating thereto.
+</p>
+
+</p>
+Copyright law and international copyright treaty provisions protect all parts of P3 AppLocker 1.6, products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for Clinton D\’souza/Qode21. 
+</p>
+
+<h3>3.4 Limitation of Responsibility</h3>
+
+<p>
+You will indemnify, hold harmless, and defend Clinton D\’souza/Qode21 , its employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Clinton D\’souza/Qode21\’s Software.
+</p>
+
+<p>
+In no event (including, without limitation, in the event of negligence) will Clinton D\’souza/Qode21 , its employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, P3 AppLocker 1.6 or the use or inability to use P3 AppLocker 1.6 or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.
+</p>
+
+<p> 
+Clinton D\’souza/Qode21\’s entire liability, without exception, is limited to the customers\’ reimbursement of the purchase price of the Software (maximum being the lesser of the amount paid by you and the suggested retail price as listed by Clinton D\’souza/Qode21 ) in exchange for the return of the product, all copies, registration papers and manuals, and all materials that constitute a transfer of license from the customer back to Clinton D\’souza/Qode21.
+</p>
+  
+<h3>3.5 Warranties</h3>
+
+<p>
+Except as expressly stated in writing, Clinton D\’souza/Qode21 makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.
+</p>
+
+<h3>3.6 Governing Law</h3>
+
+<p>
+This Agreement shall be governed by the law of the India applicable therein. You hereby irrevocably attorn and submit to the non-exclusive jurisdiction of the courts of India therefrom. If any provision shall be considered unlawful, void or otherwise unenforceable, then that provision shall be deemed severable from this License and not affect the validity and enforceability of any other provisions.
+</p>
+
+<h3>3.7 Termination</h3>
+
+<p>
+Any failure to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this license. Upon termination of this license granted herein for any reason, you agree to immediately cease use of P3 AppLocker 1.6 and destroy all copies of P3 AppLocker 1.6 supplied under this Agreement. The financial obligations incurred by you shall survive the expiration or termination of this license.  
+</p>
+
+<h2>4. DISCLAIMER OF WARRANTY</h2>
+
+<p>
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. THIS DISCLAIMER CONCERNS ALL FILES GENERATED AND EDITED BY P3 AppLocker 1.6 AS WELL.
+</p>
+
+<h2>5. CONSENT OF USE OF DATA</h2>
+
+<p>
+You agree that Clinton D\’souza/Qode21 may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to P3 AppLocker 1.6.Clinton D\’souza/Qode21 may also use this information to provide notices to you which may be of use or interest to you.
+</p> 	
+
+
+
+
+]]>
+    </string>
+    <string name="aboutus">
+<![CDATA[
+<h1>P3 AppLocker 1.6</h1>
+<h1>Copyright (c) 2014 Clinton D\’souza/Qode21</h1>
+<p>www.qode21.com</p>
+
+<h2>Thanks to the following Developers for their libraries and resources</h2>
+<p>Android Lockpattern - https://code.google.com/p/android-lockpattern/</p>
+<p>Android Bootstrap - https://github.com/Bearded-Hen/Android-Bootstrap</p>
+<p>Material Design Library - https://github.com/navasmdc/MaterialDesignLibrary</p>
+<p>Rating Reminder - https://code.google.com/p/rating-reminder/</p>
+<p>ViewPagerIndicator - http://viewpagerindicator.com/</p>
+<p>Universal Image Loader - https://github.com/nostra13/Android-Universal-Image-Loader</p>
+
+<p>Images obtained from https://unsplash.com/</p>
+
+<h2>We hope P3 AppLocker serves you well.</h2>
+        ]]>
+    </string>
+
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory android:title="Image Settings" >
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/listentries"
+            android:entryValues="@array/listvalues"
+            android:key="ImageSeqNo"
+            android:summary="Select the number of images you wish to see in a sequence.Greater the number, More is the security.\n\nWarning!\nIf you change this value after your have registered you will have to reset your PassPoints."
+            android:title="Image Sequence" />
+
+        <Preference
+            android:key="touch_tolerance"
+            android:summary="Adjust the touch tolerance to match the size of your touch."
+            android:title="Touch Tolerance" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pattern Settings" >
+        <ListPreference
+            android:defaultValue="No Pattern"
+            android:entries="@array/patternentries"
+            android:entryValues="@array/patternvalues"
+            android:key="PatternType"
+            android:summary="Choose the type of pattern you would like to set."
+            android:title="Pattern Type" />
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/pattern_stealthmode_entries"
+            android:entryValues="@array/pattern_stealthmode_values"
+            android:key="PatternStealth"
+            android:summary="Adjust whether the pattern is visible or not while identifying the user."
+            android:title="Pattern Stealth" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ghost Mode" >
+        <CheckBoxPreference
+            android:key="GhostStatus"
+            android:summary="Ghost Mode enables P3 to hide itself from your application menu."
+            android:title="Enable Ghost Mode" />
+
+        <EditTextPreference
+            android:defaultValue="12345"
+            android:enabled="false"
+            android:inputType="number"
+            android:key="KeypadKey"
+            android:summary="Use a custom number to access P3 when in Ghost mode."
+            android:title="Custom PIN" >
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other Settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="startup_service"
+            android:title="Start Service on Start Up" />
+
+        <Preference
+            android:key="reset_data"
+            android:summary="Clear all your saved credentials."
+            android:title="Reset Data" >
+        </Preference>
+        <Preference
+            android:key="unlock_apps"
+            android:summary="Unlocks all the locked apps."
+            android:title="Unlock all Applications" >
+        </Preference>
+        <Preference
+            android:key="redownload_images"
+            android:summary="Redownloads images incase of accidential deletion or errors in previous downloads."
+            android:title="Redownload Images" >
+        </Preference>
+        <Preference
+            android:key="rate_app"
+            android:summary="Give us feedback,suggestions,improvements about P3."
+            android:title="Rate P3" >
+        </Preference>
+        <Preference
+            android:key="eula"
+            android:title="End User License Agreement" >
+        </Preference>
+        <Preference
+            android:key="about_us"
+            android:title="About Us" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,148 @@
+# view res/layout/tutorial_main.xml #generated:9
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:1
+# view res/layout/app_list.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:29
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:52
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:40
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11\res/layout-v11/abc_action_bar_decor.xml #generated:17
+# view v11\res/layout-v11/abc_simple_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/password_retrive.xml #generated:41
+# view res/layout/password_retrive.xml #generated:54
+# view res/layout/password_retrive.xml #generated:90
+# view res/layout/pre_reg.xml #generated:47
+# view res/layout/pre_reg.xml #generated:59
+# view res/layout/tutorial_frag_c.xml #generated:43
+-keep class com.beardedhen.androidbootstrap.BootstrapButton { <init>(...); }
+
+# view res/layout/password_retrive.xml #generated:24
+# view res/layout/password_retrive.xml #generated:80
+-keep class com.beardedhen.androidbootstrap.BootstrapEditText { <init>(...); }
+
+# view res/layout/bootstrap_thumbnail.xml #generated:18
+# view res/layout/bootstrap_thumbnail_circle.xml #generated:21
+-keep class com.beardedhen.androidbootstrap.utils.AutoResizeTextView { <init>(...); }
+
+# view res/layout/dialog.xml #generated:38
+# view res/layout/dialog.xml #generated:44
+# view res/layout/snackbar.xml #generated:22
+-keep class com.gc.materialdesign.views.ButtonFlat { <init>(...); }
+
+# view res/layout/app_list.xml #generated:85
+-keep class com.gc.materialdesign.views.ButtonFloat { <init>(...); }
+
+# view res/layout/app_list.xml #generated:59
+# view res/layout/splash.xml #generated:30
+-keep class com.gc.materialdesign.views.ProgressBarCircularIndetermininate { <init>(...); }
+
+# view res/layout/color_selector.xml #generated:42
+# view res/layout/color_selector.xml #generated:67
+# view res/layout/color_selector.xml #generated:92
+-keep class com.gc.materialdesign.views.Slider { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.haibison.android.lockpattern.LockPatternActivity { <init>(...); }
+
+# view res/layout/alp_42447968_lock_pattern_view.xml #generated:18
+-keep class com.haibison.android.lockpattern.widget.LockPatternView { <init>(...); }
+
+# view v14\res/layout-v14/alp_42447968_lock_pattern_view.xml #generated:18
+-keep class com.haibison.android.lockpattern.widget.LockPatternView_v14 { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.p3authentication.AppData { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.p3authentication.Captcha_Verfication { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.p3authentication.Compare_Pattern { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.p3authentication.Create_Pattern { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.p3authentication.ImageGrid { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.p3authentication.Locker { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.p3authentication.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.p3authentication.PreReg { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.p3authentication.Retrive_Password { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.p3authentication.SingleViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.p3authentication.Splashscreen { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.p3authentication.preferences.Prefs { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.p3authentication.service.LockerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.p3authentication.service.NumberListerner { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.p3authentication.service.Startup { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.p3authentication.tutorial.TutorialActivity { <init>(...); }
+
+# view res/layout/tutorial_main.xml #generated:15
+-keep class com.viewpagerindicator.LinePageIndicator { <init>(...); }
+
