@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/p3Authentication/build/intermediates/exploded-aar/P3%20Authentication/androidlockpattern/unspecified/res/values-v11/values.xml -->
+    <eat-comment/>
+    <style name="Alp.42447968.BaseTheme.Dark" parent="@android:style/Theme.Holo"/>
+    <style name="Alp.42447968.BaseTheme.Dialog.Dark" parent="@android:style/Theme.Holo.Dialog"/>
+    <style name="Alp.42447968.BaseTheme.Dialog.Light" parent="@android:style/Theme.Holo.Light.Dialog"/>
+    <style name="Alp.42447968.BaseTheme.Light" parent="@android:style/Theme.Holo.Light"/>
+    <style name="Alp.42447968.BaseTheme.Light.DarkActionBar" parent="@android:style/Theme.Holo.Light"/>
+    <style name="Alp.42447968.BaseThemeHelper.Dark" parent="@style/Alp.42447968.BaseTheme.Dark">
+        <item name="alp_42447968_button_bar_style">?android:attr/buttonBarStyle</item>
+        <item name="alp_42447968_button_bar_button_style">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="Alp.42447968.BaseThemeHelper.Dialog.Dark" parent="@style/Alp.42447968.BaseTheme.Dialog.Dark">
+        <item name="alp_42447968_button_bar_style">?android:attr/buttonBarStyle</item>
+        <item name="alp_42447968_button_bar_button_style">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="Alp.42447968.BaseThemeHelper.Dialog.Light" parent="@style/Alp.42447968.BaseTheme.Dialog.Light">
+        <item name="alp_42447968_button_bar_style">?android:attr/buttonBarStyle</item>
+        <item name="alp_42447968_button_bar_button_style">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="Alp.42447968.BaseThemeHelper.Light" parent="@style/Alp.42447968.BaseTheme.Light">
+        <item name="alp_42447968_button_bar_style">?android:attr/buttonBarStyle</item>
+        <item name="alp_42447968_button_bar_button_style">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="Alp.42447968.BaseThemeHelper.Light.DarkActionBar" parent="@style/Alp.42447968.BaseTheme.Light.DarkActionBar">
+        <item name="alp_42447968_button_bar_style">?android:attr/buttonBarStyle</item>
+        <item name="alp_42447968_button_bar_button_style">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/p3Authentication/src/main/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 11 theme customizations can go here. -->
+        
+    </style>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/p3Authentication/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml -->
+    <eat-comment/>
+    <style name="Theme.Base" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!--
+            A native Action Mode could be displayed (for text selection, etc) so we need to ensure
+            that it is positioned correctly, so we request windowActionModeOverlay so that it
+            displays over the compat Action Bar.
+        -->
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.FixedSize" parent="android:Theme.Holo.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize" parent="android:Theme.Holo.Light.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Theme.Base.Light" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!--
+            A native Action Mode could be displayed (for text selection, etc) so we need to ensure
+            that it is positioned correctly, so we request windowActionModeOverlay so that it
+            displays over the compat Action Bar.
+        -->
+        <item name="android:windowActionModeOverlay">true</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="android:Widget.Holo.AutoCompleteTextView"/>
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="android:Widget.Holo.ProgressBar"/>
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="android:Widget.Holo.ProgressBar.Horizontal"/>
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="android:Widget.Holo.Light.AutoCompleteTextView"/>
+</resources>

@@ -1,0 +1,6 @@
+include ':androidBootstrap'
+include ':materialDesign'
+include ':viewPageIndicator'
+include ':androidlockpattern'
+include ':ratingreminder'
+include ':p3Authentication'

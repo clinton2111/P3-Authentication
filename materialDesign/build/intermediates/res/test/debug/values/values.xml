@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/materialDesign/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <color name="green">#00FF00</color>
+    <declare-styleable name="CustomAttributes"><attr format="boolean" name="showNumberIndicator"/><attr format="integer" name="max"/><attr format="integer" name="min"/><attr format="integer" name="value"/><attr format="integer" name="progress"/><attr format="boolean" name="check"/><attr format="integer" name="iconFloat"/><attr format="boolean" name="animate"/><attr format="float" name="rippleSpeed"/><attr format="color|reference" name="rippleColor"/></declare-styleable>
+    <string name="app_name">MaterialDesign</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/P3 Authentication.iml" filepath="$PROJECT_DIR$/P3 Authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidBootstrap/androidBootstrap.iml" filepath="$PROJECT_DIR$/androidBootstrap/androidBootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidlockpattern/androidlockpattern.iml" filepath="$PROJECT_DIR$/androidlockpattern/androidlockpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialDesign/materialDesign.iml" filepath="$PROJECT_DIR$/materialDesign/materialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p3Authentication/p3Authentication.iml" filepath="$PROJECT_DIR$/p3Authentication/p3Authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratingreminder/ratingreminder.iml" filepath="$PROJECT_DIR$/ratingreminder/ratingreminder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPageIndicator/viewPageIndicator.iml" filepath="$PROJECT_DIR$/viewPageIndicator/viewPageIndicator.iml" />
+    </modules>
+  </component>
+</project>
+

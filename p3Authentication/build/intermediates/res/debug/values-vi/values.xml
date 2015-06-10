@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/p3Authentication/build/intermediates/exploded-aar/P3%20Authentication/androidlockpattern/unspecified/res/values-vi/values.xml -->
+    <eat-comment/>
+    <plurals name="alp_42447968_pmsg_connect_x_dots">
+        <item quantity="other">Kết nối ít nhứt %1$d điểm.\nHãy thử lại…</item>
+    </plurals>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/p3Authentication/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-vi/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Điều hướng về trang chủ"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Điều hướng lên trên"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Thêm tùy chọn"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Tìm kiếm truy vấn"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Chia sẻ với %s"</string>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/p3Authentication/build/intermediates/exploded-aar/P3%20Authentication/androidlockpattern/unspecified/res/values-vi/values.xml -->
+    <eat-comment/>
+    <string name="alp_42447968_cmd_confirm">Xác nhận</string>
+    <string name="alp_42447968_cmd_continue">Tiếp tục</string>
+    <string name="alp_42447968_cmd_forgot_pattern">Quên rồi?</string>
+    <string name="alp_42447968_cmd_retry">Thử lại</string>
+    <string name="alp_42447968_loading">Đang tải…</string>
+    <string name="alp_42447968_lockscreen_access_pattern_cell_added">Đã thêm điểm</string>
+    <string name="alp_42447968_lockscreen_access_pattern_cleared">Đã xóa mẫu khóa</string>
+    <string name="alp_42447968_lockscreen_access_pattern_detected">Hoàn thành mẫu khóa</string>
+    <string name="alp_42447968_lockscreen_access_pattern_start">Bắt đầu mẫu khóa</string>
+    <string name="alp_42447968_msg_connect_4dots">Kết nối ít nhứt 4 điểm.\nHãy thử lại…</string>
+    <string name="alp_42447968_msg_draw_an_unlock_pattern">Vẽ mẫu khóa:</string>
+    <string name="alp_42447968_msg_draw_pattern_to_unlock">Vẽ mẫu khóa để truy cập:</string>
+    <string name="alp_42447968_msg_pattern_recorded">Mẫu khóa đã được nhớ!</string>
+    <string name="alp_42447968_msg_redraw_pattern_to_confirm">Vẽ lại mẫu khóa để xác nhận:</string>
+    <string name="alp_42447968_msg_release_finger_when_done">Thả ngón tay khi xong</string>
+    <string name="alp_42447968_msg_try_again">Xin lỗi, hãy thử lại</string>
+    <string name="alp_42447968_msg_your_new_unlock_pattern">Mẫu khóa mới của bạn:</string>
+</resources>

@@ -1,0 +1,263 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	android:theme
+		ADDED from AndroidManifest.xml:5:5
+	xmlns:tools
+		ADDED from AndroidManifest.xml:3:5
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:7:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:6:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:9:5
+MERGED from P3 Authentication:androidlockpattern:unspecified:20:5
+MERGED from P3 Authentication:androidBootstrap:unspecified:7:5
+MERGED from P3 Authentication:materialDesign:unspecified:7:5
+MERGED from P3 Authentication:ratingreminder:unspecified:7:5
+MERGED from P3 Authentication:viewPageIndicator:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:19.1.0:18:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:11:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+application
+ADDED from AndroidManifest.xml:21:5
+MERGED from P3 Authentication:androidBootstrap:unspecified:11:5
+MERGED from P3 Authentication:materialDesign:unspecified:11:5
+MERGED from P3 Authentication:ratingreminder:unspecified:11:5
+MERGED from com.android.support:appcompat-v7:19.1.0:19:5
+	android:label
+		ADDED from AndroidManifest.xml:25:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:23:9
+	android:icon
+		ADDED from AndroidManifest.xml:24:9
+		REJECTED from P3 Authentication:ratingreminder:unspecified:13:9
+	android:theme
+		ADDED from AndroidManifest.xml:27:9
+		REJECTED from P3 Authentication:ratingreminder:unspecified:15:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:26:9
+	tools:replace
+		ADDED from AndroidManifest.xml:28:9
+	android:name
+		ADDED from AndroidManifest.xml:22:9
+activity#com.p3authentication.MainActivity
+ADDED from AndroidManifest.xml:29:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:32:13
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+activity#com.haibison.android.lockpattern.LockPatternActivity
+ADDED from AndroidManifest.xml:34:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:37:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:36:13
+	android:theme
+		ADDED from AndroidManifest.xml:38:13
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+activity#com.p3authentication.SingleViewActivity
+ADDED from AndroidManifest.xml:40:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:43:13
+	android:label
+		ADDED from AndroidManifest.xml:42:13
+	android:name
+		ADDED from AndroidManifest.xml:41:13
+activity#com.p3authentication.Create_Pattern
+ADDED from AndroidManifest.xml:45:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:49:13
+	android:label
+		ADDED from AndroidManifest.xml:47:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:48:13
+	android:name
+		ADDED from AndroidManifest.xml:46:13
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from AndroidManifest.xml:50:13
+	android:name
+		ADDED from AndroidManifest.xml:51:17
+	android:value
+		ADDED from AndroidManifest.xml:52:17
+activity#com.p3authentication.Captcha_Verfication
+ADDED from AndroidManifest.xml:54:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:58:13
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:55:13
+activity#com.p3authentication.Compare_Pattern
+ADDED from AndroidManifest.xml:60:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:64:13
+	android:label
+		ADDED from AndroidManifest.xml:63:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:62:13
+	android:name
+		ADDED from AndroidManifest.xml:61:13
+activity#com.p3authentication.Locker
+ADDED from AndroidManifest.xml:66:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:70:13
+	android:label
+		ADDED from AndroidManifest.xml:69:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:68:13
+	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#com.p3authentication.preferences.Prefs
+ADDED from AndroidManifest.xml:72:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:76:13
+	android:label
+		ADDED from AndroidManifest.xml:74:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:75:13
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+activity#com.p3authentication.tutorial.TutorialActivity
+ADDED from AndroidManifest.xml:81:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:85:13
+	android:label
+		ADDED from AndroidManifest.xml:83:13
+	android:theme
+		ADDED from AndroidManifest.xml:86:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:84:13
+	android:name
+		ADDED from AndroidManifest.xml:82:13
+activity#com.p3authentication.ImageGrid
+ADDED from AndroidManifest.xml:91:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:95:13
+	android:label
+		ADDED from AndroidManifest.xml:93:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:94:13
+	android:name
+		ADDED from AndroidManifest.xml:92:13
+activity#com.p3authentication.Retrive_Password
+ADDED from AndroidManifest.xml:100:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:104:13
+	android:label
+		ADDED from AndroidManifest.xml:102:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:103:13
+	android:name
+		ADDED from AndroidManifest.xml:101:13
+service#com.p3authentication.service.LockerService
+ADDED from AndroidManifest.xml:110:9
+	android:enabled
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:111:13
+receiver#com.p3authentication.service.NumberListerner
+ADDED from AndroidManifest.xml:115:9
+	android:enabled
+		ADDED from AndroidManifest.xml:117:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+intent-filter#android.intent.action.NEW_OUTGOING_CALL
+ADDED from AndroidManifest.xml:118:13
+action#android.intent.action.NEW_OUTGOING_CALL
+ADDED from AndroidManifest.xml:119:17
+	android:name
+		ADDED from AndroidManifest.xml:119:25
+receiver#com.p3authentication.service.Startup
+ADDED from AndroidManifest.xml:122:9
+	android:enabled
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:123:13
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:125:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:126:17
+	android:name
+		ADDED from AndroidManifest.xml:126:25
+activity#com.p3authentication.Splashscreen
+ADDED from AndroidManifest.xml:130:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:133:13
+	android:label
+		ADDED from AndroidManifest.xml:132:13
+	android:theme
+		ADDED from AndroidManifest.xml:134:13
+	android:name
+		ADDED from AndroidManifest.xml:131:13
+activity#com.p3authentication.PreReg
+ADDED from AndroidManifest.xml:136:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:139:13
+	android:label
+		ADDED from AndroidManifest.xml:138:13
+	android:name
+		ADDED from AndroidManifest.xml:137:13
+activity-alias#com.p3authentication.Launcher
+ADDED from AndroidManifest.xml:142:9
+	android:targetActivity
+		ADDED from AndroidManifest.xml:144:13
+	android:name
+		ADDED from AndroidManifest.xml:143:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:145:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:146:17
+	android:name
+		ADDED from AndroidManifest.xml:146:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:148:17
+	android:name
+		ADDED from AndroidManifest.xml:148:27

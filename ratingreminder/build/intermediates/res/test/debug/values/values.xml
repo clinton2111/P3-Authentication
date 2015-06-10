@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidstudioProjects/P3%20Authentication/ratingreminder/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <color name="bg_text">#efefef</color>
+    <color name="shadow">#616161</color>
+    <string name="amazon_store_title">Amazon App-Shop</string>
+    <string name="app_name">Rating Reminder</string>
+    <string name="google_store_title">Google PlayStore</string>
+    <string name="kurio_store_title">Kurio Store</string>
+    <string name="rating_ask">Do you like \"%1s\" ?\nPlease put a comment and a rating on the appstore.\nThank you for your support !</string>
+    <string name="rating_ask_basic_title">Rate this app</string>
+    <string name="rating_ask_image_title">Rate this app</string>
+    <string name="rating_basic_ok">Rate now</string>
+    <string name="rating_image_ok">Rate now</string>
+    <string name="rating_later">Remind later</string>
+    <string name="rating_no">No thanks</string>
+    <string name="rating_store_not_found">This appstore is not available on this device</string>
+    <string name="rating_store_selection_title">Select an appstore</string>
+    <string name="yandex_store_title">Yandex Store</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+    <style name="editTextDefault">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+</resources>
